@@ -874,10 +874,11 @@ div.nav-menu > ul {
 .nav-menu li a {
 	color: #141412;
 	display: block;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1;
 	padding: 15px 20px;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .nav-menu li:hover > a,
@@ -1000,7 +1001,7 @@ ul.nav-menu .focus > ul,
 .entry-summary,
 .entry-meta {
 	margin: 0 auto;
-	max-width: 604px;
+	max-width: 1040px;
 	width: 100%;
 }
 
@@ -1029,6 +1030,7 @@ ul.nav-menu .focus > ul,
 
 .entry-header {
 	margin-bottom: 30px;
+	display: none;
 }
 
 .entry-title {
@@ -2078,7 +2080,7 @@ footer.entry-meta {
 
 .page-content {
 	margin: 0 auto;
-	max-width: 604px;
+	max-width: 1040px;
 	padding: 40px 0;
 	width: 100%;
 }
@@ -2720,7 +2722,7 @@ footer.entry-meta {
 	.sidebar .featured-gallery,
 	.sidebar .post-navigation .nav-links,
 	.author.sidebar .author-info {
-		max-width: 604px;
+		max-width: 1040px;
 		padding-left: 0;
 		padding-right: 0;
 	}
