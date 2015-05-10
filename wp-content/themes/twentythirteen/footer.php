@@ -15,7 +15,17 @@
 			<?php get_sidebar( 'main' ); ?>
 
 			<div class="site-info">
-				Va asteptam!
+				<?php 
+					// include social buttons
+					$order = array( 
+								'fblike' => 1, 
+								'googleplus' => 2
+							);
+					get_ssb($order); 
+				?>
+				<div class="footer-text">
+					copyright &copy; PIZZA 2015
+				</div>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
